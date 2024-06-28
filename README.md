@@ -2,11 +2,11 @@
 This readme file provides information about a flashcard application that allows you to create and manage study materials.
 
 ## Features
-*Create, Read, Update and Delete flashcards with questions and answers.
-*Organize flashcards into different topics for better categorization.
-*Practice studying flashcards with various modes (details depend on implementation).
-*Track progress and review statistics (optional).
-*Getting Started
+* Create, Read, Update and Delete flashcards with questions and answers.
+* Organize flashcards into different topics for better categorization.
+* Practice studying flashcards with various modes (details depend on implementation).
+* Track progress and review statistics (optional).
+* Getting Started
 
 ## Creating Topics:
 * Navigate to topics page
