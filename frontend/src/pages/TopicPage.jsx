@@ -6,7 +6,7 @@ import Navbar from "../components/Navbar.jsx"
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faTrash, faPenNib } from '@fortawesome/free-solid-svg-icons'; 
 import './general.css'
-
+axios.defaults.withCredentials = true;
 const TopicPage = () => {
   const navigate = useNavigate(); 
   const [tpc, setTpc] = useState('');
