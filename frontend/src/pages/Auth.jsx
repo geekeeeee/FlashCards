@@ -5,7 +5,7 @@ import { BACKENDPORT } from '../config'
 import {useCookies} from 'react-cookie'
 import {useNavigate} from 'react-router-dom'
 import Navbar from "../components/Navbar.jsx"
-
+axios.defaults.withCredentials = true;
 const Auth = () => {
   return (
     <div className='bg-hero min-h-screen'>
