@@ -1,1 +1,1 @@
-export const BACKENDPORT = "http://localhost:2000"
+export const BACKENDPORT = "https://flash-cards-app-one.vercel.app/"
