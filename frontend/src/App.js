@@ -5,7 +5,7 @@ import Auth from './pages/Auth.jsx'
 import Flash from './pages/Flash.jsx'
 import TopicPage from './pages/TopicPage.jsx'
 import TopicQnA from './pages/TopicQnA.jsx'
-
+import axios from 'axios'
 const App = () => {
   axios.defaults.withCredentials = true;
   return (
