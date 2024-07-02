@@ -7,6 +7,7 @@ import Navbar from "../components/Navbar.jsx"
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faTrash, faPenNib, faForward, faLightbulb ,faStop, faEye } from '@fortawesome/free-solid-svg-icons'; 
 import './general.css';
+axios.defaults.withCredentials = true;
 
 const TopicQnA = () => {
   const [flash, setFlash] = useState(false);
