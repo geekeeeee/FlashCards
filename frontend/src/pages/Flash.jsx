@@ -8,8 +8,6 @@ import { BACKENDPORT } from "../config.js"
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faTrash, faPenNib, faForward, faLightbulb ,faStop, faEye } from '@fortawesome/free-solid-svg-icons'; 
 
-axios.defaults.withCredentials = true;
-
 const Flash = () => {
   const navigate = useNavigate();
   const [qna, setQna] = useState([]);
