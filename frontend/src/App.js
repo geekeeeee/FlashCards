@@ -7,6 +7,7 @@ import TopicPage from './pages/TopicPage.jsx'
 import TopicQnA from './pages/TopicQnA.jsx'
 
 const App = () => {
+  axios.defaults.withCredentials = true;
   return (
     <div>
       <Router>
