@@ -1,4 +1,4 @@
-# Flashcard App - Readme
+# Flashcard App
 This readme file provides information about a flashcard application that allows you to create and manage study materials.
 
 ## Features
