@@ -55,7 +55,7 @@ const Flash = () => {
   }
 
   return (
-    <div className="bg-filtered min-h-screen min-w-screen p-0 m-0 flex flex-col justify-start items-center overflow-x-hidden">
+    <div className="bg-filtered bg-no-repeat bg-cover min-h-screen min-w-screen p-0 m-0 flex flex-col justify-start items-center overflow-x-hidden">
       <Navbar/>
 
       <div className = "flex flex-col justify-center items-center gap-3 text-white relative translate-y-20">
