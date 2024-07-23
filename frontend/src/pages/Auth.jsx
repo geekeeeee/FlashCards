@@ -7,7 +7,7 @@ import {useNavigate} from 'react-router-dom'
 import Navbar from "../components/Navbar.jsx"
 const Auth = () => {
   return (
-    <div className='bg-hero min-h-screen'>
+    <div className='bg-hero bg-no-repeat bg-cover min-h-screen min-w-screen'>
       <Navbar/>
       <div className="flex flex-row gap-4 place-content-center space-x-[217px] translate-y-5">
         <Login/>
