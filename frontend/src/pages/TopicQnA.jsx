@@ -181,7 +181,7 @@ const TopicQnA = () => {
   };
 
   return (
-    <div className="bg-filtered min-h-screen min-w-screen p-0 m-0 flex flex-col justify-start items-center overflow-x-hidden">
+    <div className="bg-filtered bg-cover bg-no-repeat min-h-screen min-w-screen p-0 m-0 flex flex-col justify-start items-center overflow-x-hidden">
       <Navbar/>
 
       <button onClick={() => setFlash(!flash)} 
