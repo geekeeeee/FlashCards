@@ -81,7 +81,7 @@ const TopicPage = () => {
   };
 
   return (
-    <div className='bg-filtered bg-cover bg-no-repeat min-h-screen p-0 m-0 flex flex-col justify-start items-center'>
+    <div className='bg-filtered bg-no-repeat bg-cover min-h-screen p-0 m-0 flex flex-col justify-start items-center'>
       
       <Navbar/> 
   
