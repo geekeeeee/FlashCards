@@ -233,7 +233,7 @@ const TopicQnA = () => {
                 ))
             )}
             </div>
-          
+            <div className="h-[200px] w-full bg-transparent m-0 p-0 border border-0"></div>
             {create && (
               <form onSubmit={onSubmit}
               className="z-10 fixed bottom-[70px] flex flex-row justify-between gap-5 text-black">
