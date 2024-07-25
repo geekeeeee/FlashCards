@@ -175,6 +175,8 @@ const TopicQnA = () => {
     try {
       const res = await axios.put(port, { question: updatedQues, answer: updatedAns });
       setQnAarray();
+      setUpdatedQues('');
+      setUpdatedAns('');
     } catch (err) {
       console.error('Update Cards error:', err.message);
     }
