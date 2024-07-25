@@ -258,7 +258,11 @@ const TopicQnA = () => {
             )}
             
             {!create && (
-              <form onSubmit={(event) => updateCard(updateId)}  
+              <form onSubmit={async (event) => {
+                event.preventDefault();
+                updateCard(updateId)
+              }}
+                
               className="z-10 fixed bottom-[70px] flex flex-row justify-between gap-5 text-white">
                 <div className='flex flex-col gap-1 items-center justify-center'>
                   <input
