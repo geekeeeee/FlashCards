@@ -131,7 +131,10 @@ const TopicPage = () => {
         className=" text-white rounded-full border border-green-400 py-2 px-3 hover:bg-green-400"
         >Create</button>
       </form>)}
-      {!create && (<form onSubmit={() => updateTpc(updateId, updatedName)} className="z-10 text-white fixed bottom-[70px] flex flex-row justify-between gap-5">
+      {!create && (<form onSubmit={async(event) => {
+          event.preventDefault();
+          updateTpc(updateId, updatedName)}
+      } className="z-10 text-white fixed bottom-[70px] flex flex-row justify-between gap-5">
         <input
           type="text"
           value={updatedName}
